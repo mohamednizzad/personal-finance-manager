@@ -38,7 +38,7 @@ The application features an intuitive dashboard with real-time financial insight
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/personal-finance-manager.git
+git clone https://github.com/mohamednizzad/personal-finance-manager.git
 cd personal-finance-manager
 ```
 
