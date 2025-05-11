@@ -30,11 +30,6 @@ The application features an intuitive dashboard with real-time financial insight
     └── report/              # Report generation interface
 ```
 
-# Personal Finance Manager (PFM)
-![PFM Dashboard](PFM_Dashboard.png)
-
-A user-friendly web application to help you track, manage, and analyze your personal finances with ease.
-
 ## 📋 Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -186,7 +181,7 @@ Follow these simple steps to get your Personal Finance Manager up and running:
 
 ## 📸 Screenshots
 
-*[Note: Add actual screenshots of your application here]*
+![PFM Dashboard](PFM_Dashboard.png)
 
 ## 🛠️ Technologies Used
 
