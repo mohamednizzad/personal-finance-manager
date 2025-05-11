@@ -1,6 +1,9 @@
 # Personal Finance Manager (PFM) - A Comprehensive Solution for Managing Personal Finances
 
-![Logo](PFM_Dashboard_Full.png)
+## The entire Application is developed using [AWS Q Developer](https://aws.amazon.com/q/developer/build/), the leading AI Powered Code Assistant
+
+## Personal Finance Manager (PFM) Demo
+[https://github.com/user-attachments/assets/3db5de5b-afc4-4901-bc8a-6e9e861a7772](https://github.com/user-attachments/assets/1af55c72-f618-4900-8ca5-fef017f9f5b6)
 
 The Personal Finance Manager (PFM) is a robust web application that enables users to track, manage, and analyze their personal income and expenses efficiently. Built with PHP and MySQL, this application provides a secure, user-specific environment where individuals can maintain detailed records of their financial transactions and generate comprehensive reports.
 
@@ -27,6 +30,9 @@ The application features an intuitive dashboard with real-time financial insight
     ├── income/              # Income management views
     └── report/              # Report generation interface
 ```
+
+
+![Logo](PFM_Dashboard_Full.png)
 
 ## Usage Instructions
 ### Prerequisites
