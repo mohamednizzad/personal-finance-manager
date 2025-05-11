@@ -1,5 +1,7 @@
 # Personal Finance Manager (PFM) - A Comprehensive Solution for Managing Personal Finances
 
+![Logo](PFM_Dashboard_Full.png)
+
 The Personal Finance Manager (PFM) is a robust web application that enables users to track, manage, and analyze their personal income and expenses efficiently. Built with PHP and MySQL, this application provides a secure, user-specific environment where individuals can maintain detailed records of their financial transactions and generate comprehensive reports.
 
 The application features an intuitive dashboard with real-time financial insights, customizable income and expense categories, and detailed reporting capabilities. Users can track transactions in their preferred currency, analyze spending patterns through visual charts, and export financial data for further analysis. With both light and dark mode support, PFM offers a modern, responsive interface that adapts to user preferences.
