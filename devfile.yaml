@@ -1,0 +1,31 @@
+schemaVersion: 2.0.0
+metadata:
+  name: personal-finance-manager
+  version: 1.0.0
+  displayName: Personal Finance Manager
+  description: PHP-based personal finance management application
+components:
+  - name: dev
+    container:
+      image: public.ecr.aws/aws-mde/universal-image:latest
+      mountSources: true
+      endpoints:
+        - name: web
+          targetPort: 8000
+          exposure: public
+commands:
+  - id: install
+    exec:
+      component: dev
+      commandLine: "echo 'Setting up PHP environment...' && sudo apt-get update && sudo apt-get install -y php php-mysql php-mbstring"
+      workingDir: ${PROJECT_SOURCE}
+  - id: build
+    exec:
+      component: dev
+      commandLine: "echo 'Checking PHP syntax...' && find . -name '*.php' -exec php -l {} \\;"
+      workingDir: ${PROJECT_SOURCE}
+  - id: test
+    exec:
+      component: dev
+      commandLine: "echo 'Starting PHP development server for testing...' && php -S 0.0.0.0:8000"
+      workingDir: ${PROJECT_SOURCE}

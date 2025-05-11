@@ -1,0 +1,38 @@
+Application Name:-
+Personal Finance Manager (PFM)
+
+Purpose:-
+The purpose of this application is to provide users the ability to manage personal income and expenses on daily basis where the user will sign up an account and the account will be created. The entire application should be user specific. Meaning, any information created by one user is exclusively available to him using any application primary key to track individual user.
+
+Features:-
+- User Sign Up
+-- User Profile
+-- User should be able to reset password
+-- User should set the currency
+
+- Income Manager
+-- Add Income with details such as Amount, Description, Category, Date
+-- User should be able to Create, Read, Update and Delete (CRUD) Income
+-- If Income Cateogory is not there, user should be able to create new category applicable to him
+
+- Expense Manager
+-- Add Expense with details such as Amount, Description, Category, Date
+-- User should be able to Create, Read, Update and Delete (CRUD) Expense
+-- If Expense Cateogory is not there, user should be able to create new category applicable to him
+
+- Report Management
+-- The user should be able to query his income and expense using particular day, category, between two dates and any other combination
+-- Download the income and expense as CSV File
+
+- Database
+-- Create MySQL Database for the purpose of PFM Application
+
+- Tech Stack
+-- Use PHP as Backend
+-- Use HTML, CSS and JS as front end
+-- Use Bootstrap Framework for Responsive Design
+
+- General
+-- The user interface should have both light and dark mode with sleek responsive design.
+-- Anything not specified, use judgement based on common practice in financial domain.
+
